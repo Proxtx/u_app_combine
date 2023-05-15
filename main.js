@@ -5,6 +5,7 @@ export class App {
 
   constructor(config) {
     this.config = config;
+    this.definitions = { methods: {} };
     this.initPromise = this.init();
   }
 
